@@ -15,6 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
+          <p>{`Hi ${process.env.REACT_APP_NAME}`} </p>
           Learn React
         </a>
       </header>

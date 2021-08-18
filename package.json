@@ -2,6 +2,7 @@
   "name": "react-simple-cloudword",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://lmansoldo.github.io/react-simple-cloudword/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -9,6 +10,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "styled-components": "^5.3.0",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
@@ -34,5 +36,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-standard": "^5.0.0",
+    "git-commit-msg-linter": "^3.2.6",
+    "husky": "^7.0.1",
+    "prettier": "^2.3.2"
   }
 }
